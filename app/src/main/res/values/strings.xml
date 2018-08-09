@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Recipe BSV</string>
+    <string name="msg_request_default_error">通信に失敗しました。</string>
+    <string name="msg_request_timeout">失敗しました。</string>
+    <string name="msg_request_no_internet">ネットワークに接続できません。\n通信環境をご確認ください。</string>
+    <string name="action_dialog_ok">OK</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="loadding">Loading</string>
+    <string name="error_internet">No internet connection!</string>
+    <string name="loading">Loading</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/btn_color_blue_deactive"/>
+    <corners android:radius="@dimen/_5dp"/>
+    <padding
+        android:bottom="@dimen/_8dp"
+        android:top="@dimen/_8dp"
+        android:left="@dimen/_2dp"
+        android:right="@dimen/_2dp"/>
+</shape>
