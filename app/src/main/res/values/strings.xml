@@ -1,13 +1,23 @@
 <resources>
-    <string name="app_name">Recipe BSV</string>
-    <string name="msg_request_default_error">通信に失敗しました。</string>
-    <string name="msg_request_timeout">失敗しました。</string>
-    <string name="msg_request_no_internet">ネットワークに接続できません。\n通信環境をご確認ください。</string>
-    <string name="action_dialog_ok">OK</string>
-    <string name="next">NEXT</string>
-    <string name="skip">SKIP</string>
-    <string name="start">GOT IT</string>
-    <string name="loadding">Loading</string>
-    <string name="error_internet">No internet connection!</string>
+    <string name="app_name">Base Project</string>
+    <string name="msg_request_default_error">There is an error occurred (Code:{0})</string>
+    <string name="msg_request_timeout">Time out! Please try again!</string>
+    <string name="msg_request_no_internet">No internet connection!</string>
+    <string name="msg_json_handle_request_json_exception">There is an error occurred when parsing Json</string>
+
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="action_ok">OK</string>
+
+    <string name="label_next">NEXT</string>
+    <string name="label_skip">SKIP</string>
     <string name="loading">Loading</string>
+
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
 </resources>

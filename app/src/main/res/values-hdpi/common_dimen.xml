@@ -1,15 +1,4 @@
 <resources>
-    <dimen name="_fsize_point_limit">12sp</dimen>
-    
-    <dimen name="_0.1dp">0.115dp</dimen>
-    <dimen name="_0.2dp">0.23dp</dimen>
-    <dimen name="_0.3dp">0.345dp</dimen>
-    <dimen name="_0.4dp">0.46dp</dimen>
-    <dimen name="_0.5dp">0.575dp</dimen>
-    <dimen name="_0.6dp">0.69dp</dimen>
-    <dimen name="_0.7dp">0.805dp</dimen>
-    <dimen name="_0.8dp">0.92dp</dimen>
-    <dimen name="_0.9dp">1.035dp</dimen>
     <dimen name="_1dp">1.15dp</dimen>
     <dimen name="_2dp">2.3dp</dimen>
     <dimen name="_3dp">3.45dp</dimen>

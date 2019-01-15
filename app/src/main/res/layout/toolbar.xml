@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:theme="@style/AppTheme.AppBarOverlay">
-
+    <!--app:elevation="0dp"-->
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
                 android:padding="8dp"
                 android:src="@drawable/ic_arrow_back" />
 
-            <com.basemvp.android.customview.CustomTextView
+            <com.base.android.customs.CustomTextView
                 android:id="@+id/tv_title_name"
                 style="@style/Text_Style_Base"
                 android:layout_width="match_parent"
@@ -47,7 +47,7 @@
                 android:layout_centerVertical="true"
                 android:background="@null"
                 android:padding="8dp"
-                android:visibility="gone" />
+                android:visibility="invisible" />
         </RelativeLayout>
     </android.support.v7.widget.Toolbar>
 
