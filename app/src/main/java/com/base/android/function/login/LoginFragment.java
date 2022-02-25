@@ -22,4 +22,5 @@ public class LoginFragment extends BaseMvpFragment<LoginPresenter> implements IL
     protected LoginPresenter createPresenter() {
         return new LoginPresenter(this);
     }
+
 }

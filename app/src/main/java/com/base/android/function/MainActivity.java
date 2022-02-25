@@ -1,6 +1,6 @@
 package com.base.android.function;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.base.android.R;
 import com.base.android.base.BaseActivity;

@@ -5,13 +5,13 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.AppCompatImageButton;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.app.ActivityCompat;
+import androidx.fragment.app.FragmentManager;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatImageButton;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
@@ -211,7 +211,7 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseView
     }
 
     public void replaceFragmentAfterResetBackStack(BaseFragment fragment) {
-        mFragmentUtil.replaceFragmentAfterResetBackstack(mFragmentManager, fragment, viewContainer);
+        mFragmentUtil.replaceFragmentAfterResetBackStack(mFragmentManager, fragment, viewContainer);
     }
 
 }

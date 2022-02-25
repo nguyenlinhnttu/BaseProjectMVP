@@ -1,8 +1,8 @@
 package com.base.android.common.utils;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.base.android.R;
 
@@ -84,19 +84,8 @@ public class FragmentUtil {
     public void replaceChildFragment(Fragment parentFragment, Fragment childFragment, int viewContainer) {
 
         String FRAGMENT_TAG = childFragment.getClass().getSimpleName();
-
         parentFragment.getChildFragmentManager().beginTransaction()
                 .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
-                .addToBackStack(FRAGMENT_TAG)
-                .replace(viewContainer, childFragment, FRAGMENT_TAG)
-                .commit();
-    }
-
-    public void replaceChildFragmentBonus(Fragment parentFragment, Fragment childFragment, int viewContainer) {
-
-        String FRAGMENT_TAG = childFragment.getClass().getSimpleName();
-
-        parentFragment.getChildFragmentManager().beginTransaction()
                 .addToBackStack(FRAGMENT_TAG)
                 .replace(viewContainer, childFragment, FRAGMENT_TAG)
                 .commit();
@@ -105,7 +94,6 @@ public class FragmentUtil {
     public void addChildFragment(Fragment parentFragment, Fragment childFragment, int viewContainer) {
 
         String FRAGMENT_TAG = childFragment.getClass().getSimpleName();
-
         parentFragment.getChildFragmentManager().beginTransaction()
                 .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
                 .addToBackStack(FRAGMENT_TAG)
@@ -149,7 +137,7 @@ public class FragmentUtil {
         return fragmentManager.findFragmentByTag(FRAGMENT_TAG);
     }
 
-    public void replaceFragmentAfterResetBackstack(FragmentManager fragmentManager, Fragment fragment, int viewContainer){
+    public void replaceFragmentAfterResetBackStack(FragmentManager fragmentManager, Fragment fragment, int viewContainer){
         while (fragmentManager.getBackStackEntryCount() > 0){
             fragmentManager.popBackStackImmediate();
         }
